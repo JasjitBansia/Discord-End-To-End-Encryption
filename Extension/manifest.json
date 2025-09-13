@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Message Encryptor",
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs", "webNavigation"],
+  "host_permissions": ["http://localhost:17465/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://discord.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

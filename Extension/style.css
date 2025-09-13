@@ -1,0 +1,52 @@
+body {
+  padding: 10px;
+  background-color: #333;
+  min-width: 200px;
+  min-height: 200px;
+  display: inline-block;
+  color: white;
+}
+.encryptionModeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+#encryptionMode {
+  height: 15px;
+  width: 15px;
+}
+#encryptionModeText {
+  font-size: 15px;
+}
+.idList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.id,
+#addID {
+  text-align: center;
+  height: 25%;
+  min-width: 200px;
+  white-space: nowrap;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+#addID {
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgb(64, 190, 64);
+}
+#addID:hover {
+  background-color: rgb(57, 216, 57);
+}
+#removeID {
+  margin-left: 15px;
+  color: red;
+  cursor: pointer;
+}
