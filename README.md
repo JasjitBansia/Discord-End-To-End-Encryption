@@ -15,7 +15,7 @@
 
 #### (OPTION 2) Binaries
 
-1. Download the binary for you platform from the [releases]() section
+1. Download the binary for you platform from the [releases](https://github.com/JasjitBansia/Discord-End-To-End-Encryption/releases/tag/main) section
 
 2. Execute the binary
 
